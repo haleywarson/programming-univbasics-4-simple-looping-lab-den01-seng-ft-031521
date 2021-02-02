@@ -32,7 +32,7 @@ def return_string_array(array)
   
   new_arr = []
   while counter < array.length
-    new_arr << array
+    new_arr << array.to_s
     counter += 1
   end
 end

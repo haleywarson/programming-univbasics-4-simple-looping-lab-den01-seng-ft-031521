@@ -28,11 +28,13 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  counter = 0
+  i = 0
   
   new_arr = []
   while counter < array.length
-    new_arr << array.to_s
-    counter += 1
+    new_arr << array[i].to_s
+    i += 1
   end
+  
+  return new_arr
 end
